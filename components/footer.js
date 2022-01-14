@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="col-4">
                         <p className="label type-white">See some of my</p>
                         <p>
-                        <Link href="/work">
+                        <Link href="/work/">
                             <a className="heavy type-white">Work</a>
                             </Link>
                         </p>
@@ -16,7 +16,7 @@ export default function Footer() {
                     <div className="col-4">
                         <p className="label type-white">Want to learn more</p>
                         <p>
-                        <Link href="/about">
+                        <Link href="/about/">
                             <a className="heavy type-white">About me</a>
                             </Link>
                         </p>
@@ -24,7 +24,7 @@ export default function Footer() {
                     <div className="col-4">
                         <p className="label type-white">How about we say</p>
                         <p>
-                        <Link href="/hello">
+                        <Link href="/hello/">
                             <a className="heavy type-white">Hello</a>
                             </Link>
                         </p>

@@ -17,17 +17,17 @@ export default function NavBar() {
                     <div className="col-9 col-8-sm align-r">
                         <ul className="nav">
                             <li>
-                                <Link href="/work">
+                                <Link href="/work/">
                                     <a className="type-white">Work</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/about">
+                                <Link href="/about/">
                                     <a className="type-white">About</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/hello">
+                                <Link href="/hello/">
                                     <a className="type-white">Hello</a>
                                 </Link>
                             </li>
