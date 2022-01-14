@@ -1,0 +1,23 @@
+﻿
+/* Accessory */
+
+.spacer {
+    width: 100%;
+    height: 64px;
+}
+
+.align-r {
+    text-align: right;
+}
+
+.align-c {
+    text-align: center;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 720px) {
+    .spacer {
+        height: 80px;
+    }
+}

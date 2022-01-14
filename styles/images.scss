@@ -1,0 +1,53 @@
+﻿
+/* Images */
+
+.fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.img-hello-1 {
+    position: relative;
+    padding-top: 58%;
+}
+
+.img-about-1 {
+    position: relative;
+    padding-top: 67%;
+}
+
+.img-about-2 {
+    position: relative;
+    padding-top: 67%;
+}
+
+.img-about-3 {
+    position: relative;
+    padding-top: 107%;
+    margin-top: 2.025rem;
+}
+
+.img-about-4 {
+    position: relative;
+    padding-top: 100%;
+    margin-top: 2.025rem;
+}
+
+.linkedin {
+    background: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20aria-hidden%3D%27true%27%20focusable%3D%27false%27%20data-prefix%3D%27fab%27%20data-icon%3D%27linkedin%27%20class%3D%27svg-inline--fa%20fa-linkedin%20fa-w-14%27%20role%3D%27img%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20448%20512%27%3E%3Cpath%20fill%3D%27currentColor%27%20d%3D%27M416%2032H31.9C14.3%2032%200%2046.5%200%2064.3v383.4C0%20465.5%2014.3%20480%2031.9%20480H416c17.6%200%2032-14.5%2032-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4%20416H69V202.2h66.5V416zm-33.2-243c-21.3%200-38.5-17.3-38.5-38.5S80.9%2096%20102.2%2096c21.2%200%2038.5%2017.3%2038.5%2038.5%200%2021.3-17.2%2038.5-38.5%2038.5zm282.1%20243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6%200-39.9%2027-39.9%2054.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8%2030.6-34.5%2062.9-34.5%2067.2%200%2079.7%2044.3%2079.7%20101.9V416z%27%3E%3C%2Fpath%3E%3C%2Fsvg%3E") no-repeat left center;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-right: 10px;
+    color: $dark-grey;
+}
+
+@media only screen and (min-width: 1094px) {
+    .linkedin {
+        padding: 30px;
+        margin-right: 15px;
+    }
+}

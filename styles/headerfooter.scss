@@ -1,0 +1,85 @@
+﻿
+/* Header and footer */
+
+.navigation {
+    margin-top: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 16px;
+    padding-left: 0;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+ul.brand, ul.nav {
+    padding-left: 0;
+}
+
+.header {
+    margin-bottom: -32px;
+}
+
+.footer {
+    background-color: $dark-torquoise;
+    margin-top: 0;
+    padding-bottom: 32px;
+
+    p {
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+}
+
+.copy {
+    background-color: $torquoise;
+    margin-top: 0;
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .navigation li {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 1094px) {
+    .navigation {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navigation li {
+        margin-right: 40px;
+    }
+
+    .footer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        p {
+            margin-top: 8px;
+        }
+    }
+
+    .copy {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        p {
+            margin-top: 0;
+        }
+    }
+}

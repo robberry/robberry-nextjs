@@ -1,0 +1,43 @@
+﻿/* Sections */
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dark-grey {
+    background: $dark-grey;
+    color: $white;
+}
+
+.light-dark-grey {
+    background: $torquoise;
+    color: $white;
+}
+
+.white {
+    background: $white;
+    color: $dark-grey;
+}
+
+.off-white {
+    background: $off-white;
+    color: $dark-grey;
+}
+
+.light-grey {
+    background: $grey;
+    color: $white;
+}
+
+@media only screen and (min-width: 1094px) {
+    section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    section.narrow {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
