@@ -45,6 +45,7 @@ export default function About() {
                   alt="Emma and Thea on the lane"
                   layout="fill"
                   placeholder="blur"
+                  priority
                 />
               </div>
               <p className="label">Emma and Thea on the lane</p>
@@ -56,6 +57,7 @@ export default function About() {
                   alt="Cuddles with teddy's"
                   layout="fill"
                   placeholder="blur"
+                  priority
                 />
               </div>
               <p className="label">Cuddles with teddy&apos;s</p>

@@ -27,6 +27,7 @@ export default function About() {
                   alt="Rob Berry"
                   layout="fill"
                   placeholder="blur"
+                  priority
                 />
               </div>
               <p>
