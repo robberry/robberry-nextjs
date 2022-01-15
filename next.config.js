@@ -6,4 +6,11 @@ module.exports = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      require('./scripts/generate-sitemap')
+    }
+
+    return config
+  },
 }
