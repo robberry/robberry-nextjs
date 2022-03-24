@@ -39,7 +39,7 @@ const securityHeaders = [
   },
   {
     key: 'Permissions-Policy',
-    value: 'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()'
+    value: 'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()'
   },
   {
     key: 'Content-Security-Policy',
