@@ -1,6 +1,6 @@
 const ContentSecurityPolicy = `
   default-src 'self'; 
-  script-src 'report-sample' 'self';
+  script-src 'report-sample' 'self' 'unsafe-eval';
   style-src 'report-sample' 'self' 'unsafe-inline';
   object-src 'self'; base-uri 'self'; 
   connect-src 'self' https://vitals.vercel-insights.com;
