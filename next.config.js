@@ -3,7 +3,7 @@ const ContentSecurityPolicy = `
   script-src 'report-sample' 'self';
   style-src 'report-sample' 'self';
   object-src 'self'; base-uri 'self'; 
-  connect-src 'self';
+  connect-src 'self' https://vitals.vercel-insights.com;
   font-src 'self'; 
   frame-src 'self'; 
   img-src 'self' data:;
