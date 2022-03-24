@@ -1,22 +1,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3000/404</loc>
-    <changefreq>hourly</changefreq>
+    <loc>https://robberry.net/404</loc>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost:3000/about</loc>
-    <changefreq>hourly</changefreq>
+    <loc>https://robberry.net/about</loc>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost:3000/hello</loc>
-    <changefreq>hourly</changefreq>
+    <loc>https://robberry.net/hello</loc>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost:3000</loc>
-    <changefreq>hourly</changefreq>
+    <loc>https://robberry.net</loc>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://localhost:3000/work</loc>
-    <changefreq>hourly</changefreq>
+    <loc>https://robberry.net/work</loc>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
