@@ -43,7 +43,8 @@ export default function About() {
                 <Image
                   src={emmathealane}
                   alt="Emma and Thea on the lane"
-                  layout="fill"
+                  width={800}
+                  height={533}
                   placeholder="blur"
                   priority
                 />
@@ -55,7 +56,8 @@ export default function About() {
                 <Image
                   src={emmatheacuddles}
                   alt="Cuddles with teddy's"
-                  layout="fill"
+                  width={800}
+                  height={533}
                   placeholder="blur"
                   priority
                 />
@@ -73,7 +75,8 @@ export default function About() {
                 <Image
                   src={robonbike}
                   alt="Rob on his bike"
-                  layout="fill"
+                  width={800}
+                  height={858}
                   placeholder="blur"
                 />
               </div>
@@ -120,7 +123,8 @@ export default function About() {
                 <Image
                   src={robrachaelfoxglacier}
                   alt="Rob and Rachael at Fox Glacier"
-                  layout="fill"
+                  width={800}
+                  height={800}
                   placeholder="blur"
                 />
               </div>

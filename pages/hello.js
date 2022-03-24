@@ -25,7 +25,8 @@ export default function About() {
                 <Image
                   src={robberry}
                   alt="Rob Berry"
-                  layout="fill"
+                  width={1000}
+                  height={583}
                   placeholder="blur"
                   priority
                 />
