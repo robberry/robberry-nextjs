@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from 'next/future/image'
 import Layout from '../components/layout'
 
 import emmathealane from '../public/assets/images/emma-thea-lane.jpg'
