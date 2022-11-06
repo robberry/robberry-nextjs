@@ -10,6 +10,8 @@ import robrachaelfoxglacier from '../public/assets/images/rob-rachael-fox-glacie
 const title = "Learn more about Rob Berry"
 const description = "I&apos;m Rob Berry, a husband to Rachael and daddy to Emma and Thea. I&#x27;m a Christian, and I enjoy technology, cooking and cycling."
 
+const css = { width: '100%', height: 'auto' }
+
 export default function About() {
   return (
     <Layout>
@@ -43,8 +45,7 @@ export default function About() {
                 <Image
                   src={emmathealane}
                   alt="Emma and Thea on the lane"
-                  width={800}
-                  height={533}
+                  sizes="100vw" style={css}
                   placeholder="blur"
                   priority
                 />
@@ -56,8 +57,7 @@ export default function About() {
                 <Image
                   src={emmatheacuddles}
                   alt="Cuddles with teddy's"
-                  width={800}
-                  height={533}
+                  sizes="100vw" style={css}
                   placeholder="blur"
                   priority
                 />
@@ -75,8 +75,7 @@ export default function About() {
                 <Image
                   src={robonbike}
                   alt="Rob on his bike"
-                  width={800}
-                  height={858}
+                  sizes="100vw" style={css}
                   placeholder="blur"
                 />
               </div>
@@ -85,13 +84,13 @@ export default function About() {
             <div className="col-6">
               <h2 className="heavy">Yorkshire</h2>
               <p className="normal">
-                The girls and I live in Skipton (North Yorkshire, UK) at read <a href="https://www.newton-grange.co.uk" target="_blank" 
-                className="heavy type-grey" rel="noopener noreferrer">Newton Grange</a> farm with a couple of thousand sheep. I know very little about sheep.
+                The girls and I live in Skipton (North Yorkshire, UK) at read <a href="https://www.newton-grange.co.uk" target="_blank"
+                  className="heavy type-grey" rel="noopener noreferrer">Newton Grange</a> farm with a couple of thousand sheep. I know very little about sheep.
               </p>
               <p className="normal">
-                Yorkshire is a fabulous place to <a href="https://www.youtube.com/watch?v=IuLBfydBtRU" 
-                  target="_blank" className="heavy type-grey" rel="noopener noreferrer">live</a> and <a href="https://www.youtube.com/watch?v=r7XajPVtpKQ" 
-                  target="_blank" className="heavy type-grey" rel="noopener noreferrer">cycle</a>. Why not come and visit.
+                Yorkshire is a fabulous place to <a href="https://www.youtube.com/watch?v=IuLBfydBtRU"
+                  target="_blank" className="heavy type-grey" rel="noopener noreferrer">live</a> and <a href="https://www.youtube.com/watch?v=r7XajPVtpKQ"
+                    target="_blank" className="heavy type-grey" rel="noopener noreferrer">cycle</a>. Why not come and visit.
               </p>
             </div>
           </div>
@@ -103,13 +102,13 @@ export default function About() {
             <div className="col-5">
               <h2 className="heavy">Church</h2>
               <p className="normal">
-                I&apos;m a Christian. I&apos;ve been going to church all my life, but it was only really at secondary school that 
-                I discovered God for myself. That was at an amazing place called the <a href="https://ndcys.com/category/briars/" 
-                target="_blank" className="heavy type-grey" rel="noopener noreferrer">The Briars</a>.
+                I&apos;m a Christian. I&apos;ve been going to church all my life, but it was only really at secondary school that
+                I discovered God for myself. That was at an amazing place called the <a href="https://ndcys.com/category/briars/"
+                  target="_blank" className="heavy type-grey" rel="noopener noreferrer">The Briars</a>.
               </p>
               <p className="normal">
                 Rachael and I met at a church in Leeds called <a href="https://www.stgeorgesleeds.org.uk/" target="_blank"
-                rel="noopener noreferrer" className="heavy type-grey">St&nbsp;George&apos;s</a>. Organising a charity cycle ride to Paris 
+                  rel="noopener noreferrer" className="heavy type-grey">St&nbsp;George&apos;s</a>. Organising a charity cycle ride to Paris
                 brought us together.
               </p>
               <p className="normal">
@@ -123,8 +122,7 @@ export default function About() {
                 <Image
                   src={robrachaelfoxglacier}
                   alt="Rob and Rachael at Fox Glacier"
-                  width={800}
-                  height={800}
+                  sizes="100vw" style={css}
                   placeholder="blur"
                 />
               </div>

@@ -7,6 +7,8 @@ import robberry from '../public/assets/images/robberry.jpg'
 const title = "How about we say hello"
 const description = "I&apos;m Rob Berry, you can reach me on Twitter @robberry or email me."
 
+const css = { width: '100%', height: 'auto' }
+
 export default function About() {
   return (
     <Layout>
@@ -25,17 +27,16 @@ export default function About() {
                 <Image
                   src={robberry}
                   alt="Rob Berry"
-                  width={1000}
-                  height={583}
+                  sizes="100vw" style={css}
                   placeholder="blur"
                   priority
                 />
               </div>
               <p>
-                Hi, I&apos;m Rob, I can be found in a few places on the web. Reach me on Twitter <a href="https://twitter.com/robberry" 
-                target="_blank" className="heavy type-white" rel="noopener noreferrer">@robberry</a> or <a href="mailto:robert.berry@gmail.com" 
-                className="heavy type-white">email</a> me. <a href="https://uk.linkedin.com/in/robberry" className="heavy type-white" 
-                target="_blank" rel="noopener noreferrer">Linkedin</a> continues to be the place I document my career moves.
+                Hi, I&apos;m Rob, I can be found in a few places on the web. Reach me on Twitter <a href="https://twitter.com/robberry"
+                  target="_blank" className="heavy type-white" rel="noopener noreferrer">@robberry</a> or <a href="mailto:robert.berry@gmail.com"
+                    className="heavy type-white">email</a> me. <a href="https://uk.linkedin.com/in/robberry" className="heavy type-white"
+                      target="_blank" rel="noopener noreferrer">Linkedin</a> continues to be the place I document my career moves.
                 But that&apos;s pretty much it.
               </p>
               <p className="normal">

@@ -8,8 +8,8 @@ export default function NavBar() {
                     <div className="col-3 col-4-sm">
                         <ul className="brand">
                             <li>
-                                <Link href="/">
-                                    <a className="brand type-white heavy">Rob Berry</a>
+                                <Link href="/" className="brand type-white heavy">
+                                    Rob Berry
                                 </Link>
                             </li>
                         </ul>
@@ -17,18 +17,18 @@ export default function NavBar() {
                     <div className="col-9 col-8-sm align-r">
                         <ul className="nav">
                             <li>
-                                <Link href="/work/">
-                                    <a className="type-white">Work</a>
+                                <Link href="/work/" className="type-white">
+                                    Work
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/about/">
-                                    <a className="type-white">About</a>
+                                <Link href="/about/" className="type-white">
+                                    About
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/hello/">
-                                    <a className="type-white">Hello</a>
+                                <Link href="/hello/" className="type-white">
+                                    Hello
                                 </Link>
                             </li>
                         </ul>
