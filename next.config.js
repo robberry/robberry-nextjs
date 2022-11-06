@@ -1,15 +1,15 @@
 const ContentSecurityPolicy = `
-  default-src 'self'; 
+  default-src 'self';
   script-src 'report-sample' 'self' 'unsafe-eval';
   style-src 'report-sample' 'self' 'unsafe-inline';
-  object-src 'self'; base-uri 'self'; 
+  object-src 'self'; base-uri 'self';
   connect-src 'self' https://vitals.vercel-insights.com;
-  font-src 'self'; 
-  frame-src 'self'; 
+  font-src 'self';
+  frame-src 'self';
   img-src 'self' data:;
-  manifest-src 'self'; 
+  manifest-src 'self';
   media-src 'self';
-  report-uri https://61e3325cb87c360d6d96d810.endpoint.csper.io/?v=1; 
+  report-uri https://61e3325cb87c360d6d96d810.endpoint.csper.io/?v=1;
   worker-src 'none';
 `
 const securityHeaders = [
@@ -66,5 +66,9 @@ module.exports = {
         headers: securityHeaders,
       },
     ]
+  },
+  i18n: {
+    locales: ['en-gb'],
+    defaultLocale: 'en-gb',
   }
 }
