@@ -112,7 +112,8 @@ export default function About() {
                 brought us together.
               </p>
               <p className="normal">
-                As a family we now attend St Andrews, the local village church in Gargrave.
+                As a family we now attend <a href="https://www.standrewsgargrave.org.uk/" target="_blank"
+                  rel="noopener noreferrer" className="heavy type-grey">St Andrew's</a>, the local village church in Gargrave.
               </p>
             </div>
             <div className="col-1 hidden-sm">
