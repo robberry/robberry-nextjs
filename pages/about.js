@@ -113,7 +113,7 @@ export default function About() {
               </p>
               <p className="normal">
                 As a family we now attend <a href="https://www.standrewsgargrave.org.uk/" target="_blank"
-                  rel="noopener noreferrer" className="heavy type-grey">St Andrew's</a>, the local village church in Gargrave.
+                  rel="noopener noreferrer" className="heavy type-grey">St Andrew&apos;s</a>, the local village church in Gargrave.
               </p>
             </div>
             <div className="col-1 hidden-sm">
