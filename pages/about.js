@@ -84,7 +84,7 @@ export default function About() {
             <div className="col-6">
               <h2 className="heavy">Yorkshire</h2>
               <p className="normal">
-                The girls and I live in Skipton (North Yorkshire, UK) at read <a href="https://www.newton-grange.co.uk" target="_blank"
+                The girls and I live in Skipton (North Yorkshire, UK) at <a href="https://www.newton-grange.co.uk" target="_blank"
                   className="heavy type-grey" rel="noopener noreferrer">Newton Grange</a> farm with a couple of thousand sheep. I know very little about sheep.
               </p>
               <p className="normal">
