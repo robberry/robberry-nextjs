@@ -51,27 +51,27 @@ export default function Work() {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <h2 className="heavy">Recent projects</h2>
+              <h2 className="heavy">Recent client projects</h2>
               <ul>
+                <li>
+                  NaFRA2
+                  <div className="organisation">Environment Agency, UK</div>
+                </li>
+                <li>
+                  Romania Flood Risk Management Plan
+                  <div className="organisation">The World Bank, United States</div>
+                </li>
                 <li>
                   Incident Management Forecasting System
                   <div className="organisation">Environment Agency, UK</div>
                 </li>
                 <li>
                   Vietnam Flood Forecasting System
-                  <div className="organisation">The World Bank, United States</div>
+                  <div className="organisation">The World Bank, United States</div>s
                 </li>
                 <li>
-                  Flood Risk Assessment Wales
-                  <div className="organisation">Natural Resources Wales, UK</div>
-                </li>
-                <li>
-                  LUCAS 2018, Lot 7 Hosting
+                  LUCAS 2022, Lot 7 Hosting
                   <div className="organisation">Eurostat, Luxembourg</div>
-                </li>
-                <li>
-                  Flanders Pluvial Flood Map
-                  <div className="organisation">Vlaamse Milieumaatschappij, Belgium</div>
                 </li>
                 <li>
                   Flood Warning Service
@@ -82,20 +82,20 @@ export default function Work() {
             <div className="col-6">
               <h2 className="heavy">Internal work</h2>
               <p className="normal">
-                I set strategy and implement IT hardware and software projects. It&apos;s quite a challenge:
+                Alongside client work I set strategy and implement IT hardware and software projects at JBA.  It&apos;s quite a challenge:
               </p>
               <ul>
-                <li>We have in excess of 1 petabyte of storage</li>
+                <li>We have many petabytes of storage</li>
                 <li>
-                  Our compute grid comprises of &asymp;&nbsp;350x <a href="https://www.nvidia.com/en-gb/data-center/pascal-gpu-architecture/"
-                    className="heavy type-grey" target="_blank" rel="noopener noreferrer">NVidia</a> GPU devices, they process millions of 
-                    models a month via <a href="https://research.cs.wisc.edu/htcondor/" className="heavy type-grey" target="_blank" rel="noopener noreferrer">
+                  Our compute grid comprises of &asymp;&nbsp;350x high performance <a href="https://www.nvidia.com/en-gb/data-center/pascal-gpu-architecture/"
+                    className="heavy type-grey" target="_blank" rel="noopener noreferrer">NVidia</a> GPU devices, they process millions of
+                  models a month via <a href="https://research.cs.wisc.edu/htcondor/" className="heavy type-grey" target="_blank" rel="noopener noreferrer">
                     HTCondor</a>
                 </li>
                 <li>
-                  We run our own data centres and also utilise <a href="https://aws.amazon.com" className="heavy type-grey" target="_blank" 
-                  rel="noopener noreferrer">Amazon Web Services</a> and <a href="https://azure.microsoft.com" className="heavy type-grey" 
-                  target="_blank" rel="noopener noreferrer">Microsoft Azure</a> for a hybrid cloud setup
+                  We run our own data centres and also utilise <a href="https://aws.amazon.com" className="heavy type-grey" target="_blank"
+                    rel="noopener noreferrer">Amazon Web Services</a> and <a href="https://azure.microsoft.com" className="heavy type-grey"
+                      target="_blank" rel="noopener noreferrer">Microsoft Azure</a> for a hybrid cloud setup
                 </li>
                 <li>Many of our government clients require highly available systems and have complex support requirements</li>
               </ul>
