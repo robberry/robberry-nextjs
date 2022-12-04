@@ -67,7 +67,7 @@ export default function Work() {
                 </li>
                 <li>
                   Vietnam Flood Forecasting System
-                  <div className="organisation">The World Bank, United States</div>s
+                  <div className="organisation">The World Bank, United States</div>
                 </li>
                 <li>
                   LUCAS 2022, Lot 7 Hosting
