@@ -29,7 +29,8 @@ h2 {
     line-height: $large-spacing;
 }
 
-p {
+p,
+li {
     font-size: $large;
     line-height: $large-spacing;
 
@@ -59,15 +60,31 @@ p {
     }
 }
 
-li {
+ul.nav>li,
+ul.brand>li {
+    font-size: $normal;
+    line-height: $normal-spacing;
+}
+
+ul.normal>li {
     font-size: $normal;
     line-height: $normal-spacing;
     padding-bottom: 0.7rem;
+}
 
-    &.large {
-        font-size: $large;
-        line-height: $large-spacing;
-    }
+ul.contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact>li {
+    padding-bottom: 1rem;
+}
+
+.label {
+    font-size: $normal;
+    line-height: $normal-spacing;
 }
 
 a {
@@ -84,7 +101,10 @@ a {
     font-weight: 800;
 }
 
-.organisation, .author, .location {
+.organisation,
+.author,
+.location,
+.contact {
     color: #a4a1a1;
 }
 
@@ -108,7 +128,8 @@ a {
         line-height: $large-spacing;
     }
 
-    p {
+    p,
+    li {
         font-size: $large * 1.2;
         line-height: $large-spacing;
 
@@ -138,14 +159,31 @@ a {
         }
     }
 
-    li {
+    ul.nav>li,
+    ul.brand>li {
         font-size: $normal * 1.2;
         line-height: $normal-spacing;
+    }
 
-        &.large {
-            font-size: $large * 1.2;
-            line-height: $large-spacing;
-        }
+    ul.normal>li {
+        font-size: $normal * 1.2;
+        line-height: $normal-spacing;
+        padding-bottom: 0.7rem;
+    }
+
+    ul.contact {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul.contact>li {
+        padding-bottom: 1rem;
+    }
+
+    .label {
+        font-size: $normal * 1.2;
+        line-height: $normal-spacing;
     }
 }
 
@@ -161,7 +199,8 @@ a {
         line-height: $large-spacing;
     }
 
-    p {
+    p,
+    li {
         font-size: $large * 1.5;
         line-height: $large-spacing * 0.95;
 
@@ -191,13 +230,30 @@ a {
         }
     }
 
-    li {
+    ul.nav>li,
+    ul.brand>li {
         font-size: $normal * 1.25;
         line-height: $normal-spacing;
+    }
 
-        &.large {
-            font-size: $large * 1.5;
-            line-height: $large-spacing;
-        }
+    ul.normal>li {
+        font-size: $normal * 1.25;
+        line-height: $normal-spacing;
+        padding-bottom: 0.7rem;
+    }
+
+    ul.contact {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul.contact>li {
+        padding-bottom: 1rem;
+    }
+
+    .label {
+        font-size: $normal * 1.25;
+        line-height: $normal-spacing;
     }
 }

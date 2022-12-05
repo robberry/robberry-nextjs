@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout'
+import Link from 'next/link'
 
 import robberry from '../public/assets/images/robberry.jpg'
 
@@ -22,7 +23,7 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="col-8">
-              <h1 className="type-white heavy">Hello, Nah then *</h1>
+              <h1 className="type-white heavy">Hello 👋</h1>
               <div className="img-hello-1">
                 <Image
                   src={robberry}
@@ -33,16 +34,29 @@ export default function About() {
                 />
               </div>
               <p>
-                Hi, I&apos;m Rob, I can be found in a few places on the web. Reach me on Twitter <a href="https://twitter.com/robberry"
-                  target="_blank" className="heavy type-white" rel="noopener noreferrer">@robberry</a> or <a href="mailto:robert.berry@gmail.com"
-                    className="heavy type-white">email</a> me. <a href="https://uk.linkedin.com/in/robberry" className="heavy type-white"
-                      target="_blank" rel="noopener noreferrer">Linkedin</a> continues to be the place I document my career moves.
-                But that&apos;s pretty much it.
+                Hi, I&apos;m Rob, I love talking with anyone about technology. I can be found in a few places on the web, reach out to me on the following:
               </p>
-              <p className="normal">
-                * Nah then is often heard in Yorkshire when friends greet each other and is used like a casual
-                &apos;hello&apos;.
-              </p>
+              <ul className='contact'>
+                <li>
+                  <a href="mailto:robert.berry@gmail.com" className="heavy type-white">robert.berry@gmail.com</a>
+                  <div className="label">Email</div>
+                </li>
+                <li>
+                  <a href="https://twitter.com/robberry"
+                    target="_blank" className="heavy type-white" rel="noopener noreferrer">@robberry</a>
+                  <div className="label">Twitter</div>
+                </li>
+                <li>
+                  <a href="https://uk.linkedin.com/in/robberry" className="heavy type-white"
+                    target="_blank" rel="noopener noreferrer">Rob Berry</a>
+                  <div className="label">LinkedIn</div>
+                </li>
+                <li>
+                  <a href="https://github.com/robberry" className="heavy type-white"
+                    target="_blank" rel="noopener noreferrer">@robberry</a>
+                  <div className="label">Github</div>
+                </li>
+              </ul>
             </div>
             <div className="col-4 hidden-sm"></div>
           </div>

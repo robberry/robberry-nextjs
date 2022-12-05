@@ -52,7 +52,7 @@ export default function Work() {
           <div className="row">
             <div className="col-6">
               <h2 className="heavy">Recent client projects</h2>
-              <ul>
+              <ul className="normal">
                 <li>
                   NaFRA2
                   <div className="organisation">Environment Agency, UK</div>
@@ -84,7 +84,7 @@ export default function Work() {
               <p className="normal">
                 Alongside client work I set strategy and implement IT hardware and software projects at JBA.  It&apos;s quite a challenge:
               </p>
-              <ul>
+              <ul className="normal">
                 <li>We have many petabytes of storage</li>
                 <li>
                   Our compute grid comprises of &asymp;&nbsp;350x high performance <a href="https://www.nvidia.com/en-gb/data-center/pascal-gpu-architecture/"
@@ -213,7 +213,7 @@ export default function Work() {
           <div className="row">
             <div className="col-9">
               <h2 className="heavy">Recent publications and presentations</h2>
-              <ul>
+              <ul className="normal">
                 <li>
                   <a href="/downloads/publications/digital-technolgies-for-a-step-change-in-national-scale-flood-mapping.pdf"
                     target="_blank" rel="noopener noreferrer" className="heavy type-grey">
