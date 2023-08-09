@@ -11,11 +11,11 @@
     "next": "13.x",
     "react": "18.x",
     "react-dom": "18.x",
-    "sass": "1.54.x",
-    "sharp": "0.31.x"
+    "sass": "1.64.x",
+    "sharp": "0.32.x"
   },
   "devDependencies": {
-    "eslint": "8.23.x",
-    "eslint-config-next": "12.3.x"
+    "eslint": "8.46.x",
+    "eslint-config-next": "13.4.x"
   }
 }
