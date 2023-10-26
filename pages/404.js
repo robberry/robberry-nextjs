@@ -12,6 +12,7 @@ export default function About() {
                 <meta name="description" content={description} />
                 <meta property="og:title" content={title} />
                 <meta property="og:description" content={description} />
+                <meta property="og:url" content="https://www.robberry.net/404/" />
                 <meta property="twitter:title" content={title} />
                 <meta property="twitter:description" content={description} />
             </Head>
