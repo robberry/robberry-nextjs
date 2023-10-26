@@ -12,6 +12,9 @@ export default function Home() {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta property="og:url" content="https://www.robberry.net/" />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
       </Head>
       <section className="dark-grey">
         <div className="container">

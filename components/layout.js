@@ -22,6 +22,8 @@ export default function Layout({ children }) {
 
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://www.robberry.net/assets/images/icon.png" />
+                <meta property="twitter:card" content="summary" />
+                <meta property="twitter:image" content="https://www.robberry.net/assets/images/icon.png" />
             </Head>
             <NavBar />
             {children}
