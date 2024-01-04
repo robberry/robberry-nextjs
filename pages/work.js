@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 
 const title = "See some of my work at JBA Consulting"
-const description = "I'm Rob Berry, Head of Technology at JBA Consulting. I have specialist knowledge in advanced data and GIS analysis, high performance processing and system and architecture design."
+const description = "I'm Rob Berry, Head of Technology, Data and Software Development at JBA Consulting. I have specialist knowledge in advanced data and GIS analysis, high performance processing and system and architecture design."
 
 export default function Work() {
   return (
@@ -25,7 +25,7 @@ export default function Work() {
                 Hi, I&apos;m Rob, a creative developer of technology for engineers.
               </p>
               <p>
-                I&apos;m Head of Technology at <a href="https://www.jbaconsulting.com" className="type-white heavy"
+                I&apos;m Head of Technology, Data and Software Development at <a href="https://www.jbaconsulting.com" className="type-white heavy"
                   target="_blank" rel="noopener noreferrer">JBA Consulting</a>,
                 where I deliver cutting edge projects, using my specialist knowledge in advanced
                 data and GIS analysis, high performance processing (distributed CPU and GPU) and system and

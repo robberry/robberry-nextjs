@@ -8,14 +8,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.5.6",
-    "react": "18.x",
-    "react-dom": "18.x",
-    "sass": "1.69.x",
-    "sharp": "0.32.x"
+    "next": "~14.x",
+    "react": "~18.x",
+    "react-dom": "~18.x",
+    "sass": "~1.69.x",
+    "sharp": "~0.33.x"
   },
   "devDependencies": {
-    "eslint": "8.x",
-    "eslint-config-next": "13.5.x"
+    "eslint": "~8.x",
+    "eslint-config-next": "~13.5.x"
   }
 }
