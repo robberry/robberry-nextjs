@@ -1,12 +1,12 @@
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'report-sample' 'self' 'unsafe-eval';
-  style-src 'report-sample' 'self' 'unsafe-inline';
+  script-src 'self' 'unsafe-eval';
+  style-src 'self' 'unsafe-inline';
   object-src 'self'; base-uri 'self';
   connect-src 'self';
   font-src 'self';
   frame-src 'self';
-  img-src 'self' data:;
+  img-src 'self' blob: data:;
   manifest-src 'self';
   media-src 'self';
   report-uri https://61e3325cb87c360d6d96d810.endpoint.csper.io/?v=1;
