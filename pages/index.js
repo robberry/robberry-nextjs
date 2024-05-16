@@ -20,7 +20,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1 className="xlarge heavy">Hi, I&apos;m Rob Berry, a creative developer of technology for the environmental risk sector.</h1>
+              <h1 className="xlarge heavy">Hi, I&apos;m Rob Berry, a creative technologist in the environmental risk sector.</h1>
               <p className="xlarge">
                 My expertise in software, data and systems development helps tackle complex numerical and data challenges, empowering informed decision-making.
               </p>
