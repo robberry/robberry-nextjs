@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 
-const title = "Creative development of technology for engineers"
+const title = "Creative development of technology for the environmental risk sector"
 const description = "I&apos;m Rob Berry, a creative developer of technology for engineers. My software and systems solve complex numerical and data problems."
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://www.robberry.net/" />
+        <meta property="og:url" content="https://robberry.net/" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
       </Head>
@@ -20,11 +20,11 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1 className="xlarge heavy">Hi, I&apos;m Rob Berry, a creative developer of technology for engineers.</h1>
+              <h1 className="xlarge heavy">Hi, I&apos;m Rob Berry, a creative developer of technology for the environmental risk sector.</h1>
               <p className="xlarge">
-                My software and systems solve complex numerical and data problems.
-                The results enable people to make more informed decisions.
+                My expertise in software, data and systems development helps tackle complex numerical and data challenges, empowering informed decision-making.
               </p>
+
             </div>
           </div>
         </div>
