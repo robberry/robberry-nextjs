@@ -118,35 +118,35 @@ export default function Work() {
               <div className="skill">
                 <p className="label type-white">Cloud</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-90" role="progressbar" aria-valuenow="90"
+                  <div className="progress-bar bg-blue pc-90" role="progressbar" aria-label="Cloud" aria-valuenow="90"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
                 <p className="label type-white">Python</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-80" role="progressbar" aria-valuenow="80"
+                  <div className="progress-bar bg-blue pc-80" role="progressbar" aria-label="Python" aria-valuenow="80"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
                 <p className="label type-white">C#</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-50" role="progressbar" aria-valuenow="50"
+                  <div className="progress-bar bg-blue pc-50" role="progressbar" aria-label="C#" aria-valuenow="50"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
                 <p className="label type-white">Web technologies</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-75" role="progressbar" aria-valuenow="75"
+                  <div className="progress-bar bg-blue pc-75" role="progressbar" aria-label="Web technologies" aria-valuenow="75"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
                 <p className="label type-white">Tinkering</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-95" role="progressbar" aria-valuenow="95"
+                  <div className="progress-bar bg-blue pc-95" role="progressbar" aria-label="Tinkering" aria-valuenow="95"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
@@ -156,21 +156,21 @@ export default function Work() {
               <div className="skill">
                 <p className="label type-white">Databases</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-90" role="progressbar" aria-valuenow="90"
+                  <div className="progress-bar bg-blue pc-90" role="progressbar" aria-label="Databases" aria-valuenow="90"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
                 <p className="label type-white">GIS</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-90" role="progressbar" aria-valuenow="90"
+                  <div className="progress-bar bg-blue pc-90" role="progressbar" aria-label="GIS" aria-valuenow="90"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
                 <p className="label type-white">Big data</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-70" role="progressbar" aria-valuenow="70"
+                  <div className="progress-bar bg-blue pc-70" role="progressbar" aria-label="Big data" aria-valuenow="70"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
@@ -180,21 +180,21 @@ export default function Work() {
               <div className="skill">
                 <p className="label type-white">Strategy and innovation</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-80" role="progressbar" aria-valuenow="80"
+                  <div className="progress-bar bg-blue pc-80" role="progressbar" aria-label="Strategy and innovation" aria-valuenow="80"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
                 <p className="label type-white">Service design and management</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-60" role="progressbar" aria-valuenow="60"
+                  <div className="progress-bar bg-blue pc-60" role="progressbar" aria-label="Service design and management" aria-valuenow="60"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div className="skill">
-                <p className="label type-white">Enterprise and solution architecture </p>
+                <p className="label type-white">Enterprise and solution architecture</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-85" role="progressbar" aria-valuenow="85"
+                  <div className="progress-bar bg-blue pc-85" role="progressbar" aria-label="Enterprise and solution architecture" aria-valuenow="85"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function Work() {
                 <p className="label type-white">
                   Process optimisation</p>
                 <div className="progress">
-                  <div className="progress-bar bg-blue pc-70" role="progressbar" aria-valuenow="70"
+                  <div className="progress-bar bg-blue pc-70" role="progressbar" aria-label="Process optimisation" aria-valuenow="70"
                     aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
