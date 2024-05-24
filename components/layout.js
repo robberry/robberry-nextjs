@@ -2,6 +2,7 @@ import Head from 'next/head'
 import NavBar from './navbar'
 import Footer from './footer'
 import CopyRight from './copyright'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Layout({ children }) {
     return (
@@ -29,6 +30,7 @@ export default function Layout({ children }) {
             {children}
             <Footer />
             <CopyRight />
+            <Analytics />
         </>
     )
 }
