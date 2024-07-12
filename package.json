@@ -18,6 +18,6 @@
     "@types/node": "~20.x",
     "@types/react": "~18.x",
     "eslint": "~8.x",
-    "eslint-config-next": "~13.5.x"
+    "eslint-config-next": "~14.x"
   }
 }
