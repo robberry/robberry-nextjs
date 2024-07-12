@@ -9,7 +9,6 @@ const ContentSecurityPolicy = `
   img-src 'self' blob: data:;
   manifest-src 'self';
   media-src 'self';
-  report-uri https://61e3325cb87c360d6d96d810.endpoint.csper.io/?v=1;
   worker-src 'none';
 `
 
