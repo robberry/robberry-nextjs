@@ -51,7 +51,7 @@ module.exports = {
   poweredByHeader: false,
   trailingSlash: true,
   reactStrictMode: true,
-  webpack: (config, { isServer }) => {
+  webpack: (config: any, { isServer }: any) => {
     if (isServer) {
       require('./scripts/generate-sitemap')
     }
