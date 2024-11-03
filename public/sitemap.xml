@@ -1,22 +1,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://robberry.net/404</loc>
+    <loc>https://robberry.net/404/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://robberry.net/about</loc>
+    <loc>https://robberry.net/about/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://robberry.net/hello</loc>
+    <loc>https://robberry.net/hello/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://robberry.net</loc>
+    <loc>https://robberry.net/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://robberry.net/work</loc>
+    <loc>https://robberry.net/work/</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

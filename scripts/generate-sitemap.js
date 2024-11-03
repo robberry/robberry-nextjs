@@ -2,13 +2,16 @@ const fs = require('fs')
 const globby = require('globby')
 
 function addPage(page) {
-  const path = page.replace('pages', '').replace('.js', '').replace('.mdx', '')
-  const route = path === '/index' ? '' : path
+  const path = page.replace('pages', '').replace(/(.js|.mdx)$/, '');
+  const route = path === '/index' ? '' : path;
+
+  // Construct the URL and add a trailing slash if missing
+  const url = new URL(route.endsWith('/') ? route : `${route}/`, process.env.WEBSITE_URL).href;
 
   return `  <url>
-    <loc>${`${process.env.WEBSITE_URL}${route}`}</loc>
-    <changefreq>monthly</changefreq>
-  </url>`
+    <loc>${url}</loc>
+    <changefreq>${process.env.SITEMAP_CHANGEFREQ || 'monthly'}</changefreq>
+  </url>`;
 }
 
 async function generateSitemap() {
