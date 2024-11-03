@@ -5,7 +5,7 @@ const openSans = Open_Sans({
 
 import '../styles/globals.scss'
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }) {
   return (
     <main className={openSans.className}>
       <Component {...pageProps} />
