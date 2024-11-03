@@ -8,16 +8,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "~14.x",
+    "next": "~15.x",
     "react": "~18.x",
     "react-dom": "~18.x",
     "sass": "~1.77.x",
-    "sharp": "~0.33.x"
+    "sharp": "~0.33.x",
+    "globby": "~11.x"
   },
   "devDependencies": {
     "@types/node": "~20.x",
     "@types/react": "~18.x",
     "eslint": "~8.x",
-    "eslint-config-next": "~14.x"
+    "eslint-config-next": "~15.x"
   }
 }

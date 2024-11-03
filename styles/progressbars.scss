@@ -9,48 +9,15 @@
 .progress {
   height: 0.7rem;
   background-color: #fff;
+
   .bg-blue {
     background-color: $torquoise;
     height: 0.7rem;
   }
 }
 
-.pc-95 {
-  width: 95%;
-}
-
-.pc-90 {
-  width: 90%;
-}
-
-.pc-85 {
-  width: 85%;
-}
-
-.pc-80 {
-  width: 80%;
-}
-
-.pc-75 {
-  width: 75%;
-}
-
-.pc-70 {
-  width: 70%;
-}
-
-.pc-65 {
-  width: 65%;
-}
-
-.pc-60 {
-  width: 60%;
-}
-
-.pc-55 {
-  width: 55%;
-}
-
-.pc-50 {
-  width: 50%;
+@each $i in 50, 55, 60, 65, 70, 75, 80, 85, 90, 95 {
+  .pc-#{$i} {
+    width: 0% + $i;
+  }
 }
