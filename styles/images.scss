@@ -1,5 +1,6 @@
-﻿
 /* Images */
+
+@use "variables";
 
 .fill {
     position: absolute;
@@ -37,7 +38,7 @@
     width: 100px;
     padding: 20px;
     margin-right: 10px;
-    color: $dark-grey;
+    color: variables.$dark-grey;
 }
 
 @media only screen and (min-width: 1094px) {

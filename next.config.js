@@ -51,6 +51,9 @@ module.exports = {
   poweredByHeader: false,
   trailingSlash: true,
   reactStrictMode: true,
+  sassOptions: {
+    silenceDeprecations: ["legacy-js-api"],
+  },
   webpack: (config, { isServer }) => {
     if (isServer) {
       require('./scripts/generate-sitemap')

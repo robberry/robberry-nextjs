@@ -1,3 +1,7 @@
+/* Progress bars */
+
+@use "variables";
+
 .skill {
   margin-bottom: 1rem;
 }
@@ -11,7 +15,7 @@
   background-color: #fff;
 
   .bg-blue {
-    background-color: $torquoise;
+    background-color: variables.$torquoise;
     height: 0.7rem;
   }
 }

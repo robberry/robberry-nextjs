@@ -1,5 +1,6 @@
-﻿
 /* Header and footer */
+
+@use "variables";
 
 .navigation {
     margin-top: 0;
@@ -15,7 +16,8 @@
     }
 }
 
-ul.brand, ul.nav {
+ul.brand,
+ul.nav {
     padding-left: 0;
 }
 
@@ -24,7 +26,7 @@ ul.brand, ul.nav {
 }
 
 .footer {
-    background-color: $dark-torquoise;
+    background-color: variables.$dark-torquoise;
     margin-top: 0;
     padding-bottom: 32px;
 
@@ -35,7 +37,7 @@ ul.brand, ul.nav {
 }
 
 .copy {
-    background-color: $torquoise;
+    background-color: variables.$torquoise;
     margin-top: 0;
 
     p {

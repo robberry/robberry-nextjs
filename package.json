@@ -11,7 +11,7 @@
     "next": "~15.x",
     "react": "~18.x",
     "react-dom": "~18.x",
-    "sass": "~1.77.x",
+    "sass": "~1.80.x",
     "sharp": "~0.33.x",
     "globby": "~11.x"
   },

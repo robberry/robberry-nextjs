@@ -1,6 +1,8 @@
 /* Simple Grid | https://simplegrid.io/ */
 
-// Universal
+@use "variables";
+
+/* Universal */
 
 html,
 body {
@@ -9,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: $dark-grey;
+  background-color: variables.$dark-grey;
   font-size: 100%;
 }
 
@@ -17,7 +19,7 @@ body {
   background-color: #008C9E;
 }
 
-// Utility
+/* Utility */
 
 .text-align {
   &--left {
@@ -43,7 +45,7 @@ body {
   display: none;
 }
 
-// Grid
+/* Grid */
 
 $width: 96%;
 $gutter: 4%;

@@ -1,4 +1,6 @@
-﻿/* Sections */
+/* Sections */
+
+@use "variables";
 
 section {
     padding-top: 20px;
@@ -6,28 +8,28 @@ section {
 }
 
 .dark-grey {
-    background: $dark-grey;
-    color: $white;
+    background: variables.$dark-grey;
+    color: variables.$white;
 }
 
 .light-dark-grey {
-    background: $torquoise;
-    color: $white;
+    background: variables.$torquoise;
+    color: variables.$white;
 }
 
 .white {
-    background: $white;
-    color: $dark-grey;
+    background: variables.$white;
+    color: variables.$dark-grey;
 }
 
 .off-white {
-    background: $off-white;
-    color: $dark-grey;
+    background: variables.$off-white;
+    color: variables.$dark-grey;
 }
 
 .light-grey {
-    background: $grey;
-    color: $white;
+    background: variables.$grey;
+    color: variables.$white;
 }
 
 @media only screen and (min-width: 1094px) {
