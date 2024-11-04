@@ -16,6 +16,8 @@
     "@types/node": "~20.x",
     "@types/react": "~18.x",
     "@types/react-dom": "~18.x",
+    "eslint": "~9.x",
+    "eslint-config-next": "~15.x",
     "globby": "~11.x",
     "sass": "~1.80.x"
   }
