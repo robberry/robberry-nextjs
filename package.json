@@ -10,15 +10,13 @@
   "dependencies": {
     "next": "~15.x",
     "react": "~18.x",
-    "react-dom": "~18.x",
-    "sass": "~1.80.x",
-    "sharp": "~0.33.x",
-    "globby": "~11.x"
+    "react-dom": "~18.x"
   },
   "devDependencies": {
     "@types/node": "~20.x",
     "@types/react": "~18.x",
-    "eslint": "~8.x",
-    "eslint-config-next": "~15.x"
+    "@types/react-dom": "~18.x",
+    "globby": "~11.x",
+    "sass": "~1.80.x"
   }
 }
