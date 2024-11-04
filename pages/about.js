@@ -8,7 +8,7 @@ import robonbike from '../public/assets/images/rob-on-bike.jpg'
 import robrachaelfoxglacier from '../public/assets/images/rob-rachael-fox-glacier.jpg'
 
 const title = "Learn more about Rob Berry"
-const description = "I&apos;m Rob Berry, a husband to Rachael and daddy to Emma and Thea. I&#x27;m a Christian, and I enjoy technology, cooking and cycling."
+const description = "I'm Rob Berry, a husband to Rachael and daddy to Emma and Thea. I'm a Christian, and I enjoy technology, cooking and cycling."
 
 const css = { width: '100%', height: 'auto' }
 

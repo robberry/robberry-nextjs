@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 
 const title = "Creative development of technology for the environmental risk sector"
-const description = "I&apos;m Rob Berry, a creative developer of technology for engineers. My software and systems solve complex numerical and data problems."
+const description = "I'm Rob Berry, a creative developer of technology for engineers. My software and systems solve complex numerical and data problems."
 
 export default function Home() {
   return (

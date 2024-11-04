@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 
 const title = "Error"
-const description = "Whoops, there&apos;s been some sort of problem!"
+const description = "Whoops, there's been some sort of problem!"
 
 export default function About() {
     return (

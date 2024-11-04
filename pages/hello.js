@@ -6,7 +6,7 @@ import Link from 'next/link'
 import robberry from '../public/assets/images/robberry.jpg'
 
 const title = "How about we say hello"
-const description = "I&apos;m Rob Berry, you can reach me on Twitter @robberry or email me."
+const description = "I'm Rob Berry, you can reach me on Twitter @robberry or email me."
 
 const css = { width: '100%', height: 'auto' }
 
