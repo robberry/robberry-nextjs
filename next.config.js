@@ -51,6 +51,7 @@ module.exports = {
   poweredByHeader: false,
   trailingSlash: true,
   reactStrictMode: true,
+  output: 'standalone',
   sassOptions: {
     silenceDeprecations: ["legacy-js-api"],
   },
