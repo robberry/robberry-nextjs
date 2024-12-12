@@ -10,7 +10,9 @@
   "dependencies": {
     "next": "~15.x",
     "react": "~18.x",
-    "react-dom": "~18.x"
+    "react-dom": "~18.x",
+    "@vercel/speed-insights": "~1.x",
+    "@vercel/analytics": "~1.x"
   },
   "devDependencies": {
     "@types/node": "~20.x",
