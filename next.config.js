@@ -1,7 +1,7 @@
 const ContentSecurityPolicy = `
   default-src 'self';
   script-src 'self' 'unsafe-eval';
-  style-src 'self' 'unsafe-inline';
+  style-src 'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live;
   object-src 'self'; base-uri 'self';
   connect-src 'self';
   font-src 'self';
