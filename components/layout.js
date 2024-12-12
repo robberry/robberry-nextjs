@@ -21,7 +21,7 @@ export default function Layout({ children }) {
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
 
-                <meta name="theme-color" content="#343838" />
+                <meta name="theme-color" content="#262929" />
                 <meta name="author" content="Rob Berry" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://robberry.net/assets/images/icon.png" />
