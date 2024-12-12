@@ -5,7 +5,7 @@ const ContentSecurityPolicy = `
   object-src 'self'; base-uri 'self';
   connect-src 'self';
   font-src 'self';
-  frame-src 'self';
+  frame-src 'self' https://vercel.live;
   img-src 'self' blob: data:;
   manifest-src 'self';
   media-src 'self';
