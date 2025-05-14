@@ -1,6 +1,3 @@
-import { Analytics } from '@vercel/analytics/next';
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
 import Head from 'next/head'
 import NavBar from './navbar'
 import Footer from './footer'
@@ -32,8 +29,6 @@ export default function Layout({ children }) {
             {children}
             <Footer />
             <CopyRight />
-            <Analytics />
-            <SpeedInsights />
         </>
     )
 }

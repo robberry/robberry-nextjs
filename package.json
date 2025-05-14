@@ -2,25 +2,23 @@
   "name": "robberry-nextjs-site",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "~15.x",
-    "react": "~18.x",
-    "react-dom": "~18.x",
-    "@vercel/speed-insights": "~1.x",
-    "@vercel/analytics": "~1.x"
+    "react": "~19.x",
+    "react-dom": "~19.x"
   },
   "devDependencies": {
-    "@types/node": "~20.x",
-    "@types/react": "~18.x",
-    "@types/react-dom": "~18.x",
+    "@types/node": "~22.x",
+    "@types/react": "~19.x",
+    "@types/react-dom": "~19.x",
     "eslint": "~9.x",
     "eslint-config-next": "~15.x",
     "globby": "~11.x",
-    "sass": "~1.80.x"
+    "sass": "~1.88.x"
   }
 }
