@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NavBar() {
     return (
-        <section className="navigation dark-grey">
+        <nav className="navigation dark-grey">
             <div className="container">
                 <div className="row">
                     <div className="col-3 col-4-sm">
@@ -35,6 +35,6 @@ export default function NavBar() {
                     </div>
                 </div>
             </div>
-        </section>
+        </nav>
     )
 }

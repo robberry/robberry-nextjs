@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import SEO from '../components/seo'
 import Image from 'next/image'
 import Layout from '../components/layout'
 
@@ -7,23 +7,16 @@ import emmatheacuddles from '../public/assets/images/emma-thea-cuddles.jpg'
 import robonbike from '../public/assets/images/rob-on-bike.jpg'
 import robrachaelfoxglacier from '../public/assets/images/rob-rachael-fox-glacier.jpg'
 
-const title = "Learn more about Rob Berry"
-const description = "I'm Rob Berry, a husband to Rachael and daddy to Emma and Thea. I'm a Christian, and I enjoy technology, cooking and cycling."
-
 const css = { width: '100%', height: 'auto' }
 
 export default function About() {
   return (
     <Layout>
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://robberry.net/about/" />
-        <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={description} />
-      </Head>
+      <SEO
+        title="Learn more about Rob Berry"
+        description="I'm Rob Berry, a husband to Rachael and daddy to Emma and Thea. I'm a Christian, and I enjoy technology, cooking and cycling."
+        canonical="/about/"
+      />
       <section className="dark-grey">
         <div className="container">
           <div className="row">

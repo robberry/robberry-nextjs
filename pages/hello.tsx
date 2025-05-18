@@ -1,26 +1,19 @@
-import Head from 'next/head'
+import SEO from '../components/seo'
 import Image from 'next/image'
 import Layout from '../components/layout'
 
 import robberry from '../public/assets/images/robberry.jpg'
-
-const title = "How about we say hello"
-const description = "I'm Rob Berry, you can reach me on Twitter @robberry or email me."
 
 const css = { width: '100%', height: 'auto' }
 
 export default function About() {
   return (
     <Layout>
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://robberry.net/hello/" />
-        <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={description} />
-      </Head>
+      <SEO
+        title="How about we say hello"
+        description="I'm Rob Berry, you can reach me on Twitter @robberry or email me."
+        canonical="/hello/"
+      />
       <section className="dark-grey">
         <div className="container">
           <div className="row">

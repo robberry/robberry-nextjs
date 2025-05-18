@@ -1,21 +1,14 @@
-import Head from 'next/head'
+import SEO from '../components/seo'
 import Layout from '../components/layout'
-
-const title = "Creative development of technology for the environmental risk sector"
-const description = "I'm Rob Berry, a creative developer of technology for engineers. My software and systems solve complex numerical and data problems."
 
 export default function Home() {
   return (
     <Layout>
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://robberry.net/" />
-        <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={description} />
-      </Head>
+      <SEO
+        title="Creative development of technology for the environmental risk sector"
+        description="I'm Rob Berry, a creative developer of technology for engineers. My software and systems solve complex numerical and data problems."
+        canonical="/"
+      />
       <section className="dark-grey">
         <div className="container">
           <div className="row">

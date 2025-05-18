@@ -1,21 +1,14 @@
-import Head from 'next/head'
+import SEO from '../components/seo'
 import Layout from '../components/layout'
-
-const title = "See some of my work at JBA Consulting"
-const description = "I'm Rob Berry, Head of Technology, Data and Software Development at JBA Consulting. I have specialist knowledge in advanced data and GIS analysis, high performance processing and system and architecture design."
 
 export default function Work() {
   return (
     <Layout>
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://robberry.net/work/" />
-        <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={description} />
-      </Head>
+      <SEO
+        title="See some of my work at JBA Consulting"
+        description="I'm Rob Berry, Head of Technology, Data and Software Development at JBA Consulting. I have specialist knowledge in advanced data and GIS analysis, high performance processing and system and architecture design."
+        canonical="/work/"
+      />
       <section className="dark-grey">
         <div className="container">
           <div className="row">
