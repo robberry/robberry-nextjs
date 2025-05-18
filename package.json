@@ -2,10 +2,11 @@
   "name": "robberry-nextjs-site",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "next dev --turbo",
+    "build": "next build && node scripts/generate-sitemap",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "tsc": "tsc --noEmit"
   },
   "dependencies": {
     "next": "~15.x",
@@ -13,12 +14,11 @@
     "react-dom": "~19.x"
   },
   "devDependencies": {
+    "typescript": "~5.x",
     "@types/node": "~22.x",
     "@types/react": "~19.x",
-    "@types/react-dom": "~19.x",
-    "eslint": "~9.x",
-    "eslint-config-next": "~15.x",
     "globby": "~11.x",
-    "sass": "~1.88.x"
+    "sass": "~1.88.x",
+    "dotenv": "~16.x"
   }
 }

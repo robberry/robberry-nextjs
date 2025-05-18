@@ -55,13 +55,6 @@ module.exports = {
   sassOptions: {
     silenceDeprecations: ["legacy-js-api"],
   },
-  // webpack: (config, { isServer }) => {
-  //   if (isServer) {
-  //     require('./scripts/generate-sitemap')
-  //   }
-
-  //   return config
-  // },
   async headers() {
     return [
       {

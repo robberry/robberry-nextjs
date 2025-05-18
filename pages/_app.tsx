@@ -4,8 +4,9 @@ const openSans = Open_Sans({
 })
 
 import '../styles/styles.scss'
+import type { AppProps } from 'next/app';
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={openSans.className}>
       <Component {...pageProps} />

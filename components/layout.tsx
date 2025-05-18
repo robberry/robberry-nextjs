@@ -2,8 +2,13 @@ import Head from 'next/head'
 import NavBar from './navbar'
 import Footer from './footer'
 import CopyRight from './copyright'
+import { ReactNode } from 'react';
 
-export default function Layout({ children }) {
+interface LayoutProps {
+    children: ReactNode;
+}
+
+export default function Layout({ children }: LayoutProps) {
     return (
         <>
             <Head>

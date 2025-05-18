@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout'
-import Link from 'next/link'
 
 import robberry from '../public/assets/images/robberry.jpg'
 
