@@ -14,10 +14,10 @@
   },
   "devDependencies": {
     "typescript": "~5.x",
-    "@types/node": "~22.x",
+    "@types/node": "~24.x",
     "@types/react": "~19.x",
-    "globby": "~11.x",
+    "globby": "~14.x",
     "sass": "~1.88.x",
-    "dotenv": "~16.x"
+    "dotenv": "~17.x"
   }
 }
