@@ -1,7 +1,7 @@
 require('dotenv').config({ path: require('path').resolve(__dirname, '../.env') });
 
 const fs = require('fs')
-const globby = require('globby')
+const { globby } = require('globby');
 
 function addPage(page) {
   const path = page.replace('pages', '').replace(/(.tsx|.js|.mdx)$/, '');
