@@ -8,7 +8,7 @@
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "~15.x",
+    "next": "15.5.7",
     "react": "~19.x",
     "react-dom": "~19.x"
   },
