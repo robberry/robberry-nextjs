@@ -8,7 +8,7 @@
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "~15.x",
+    "next": "~16.x",
     "react": "~19.x",
     "react-dom": "~19.x"
   },
@@ -16,8 +16,8 @@
     "typescript": "~5.x",
     "@types/node": "~24.x",
     "@types/react": "~19.x",
-    "globby": "~15.x",
-    "sass": "~1.93.x",
+    "globby": "~16.x",
+    "sass": "~1.94.x",
     "dotenv": "~17.x"
   }
 }
